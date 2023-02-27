@@ -5,14 +5,14 @@
  * @s: string to be converted
  * Return: converted int
  */
-int _atoi(char *s);
+int _atoi(char *s)
 {
-	int i, n, d, num, f, digit;
+	int i, d, n, len, f, digit;
 
 	i = 0;
-	n = 0;
 	d = 0;
-	num = 0;
+	n = 0;
+	len = 0;
 	f = 0;
 	digit = 0;
 
@@ -20,6 +20,7 @@ int _atoi(char *s);
 		len++;
 
 	while (i < len && f == 0)
+	{
 		if (s[i] == '-')
 			++d;
 
@@ -42,4 +43,3 @@ int _atoi(char *s);
 
 	return (n);
 }
-
