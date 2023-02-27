@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * atoi - a function that convert a string to an integer
