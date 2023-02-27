@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 /**
- * puts_half -  a function that prints n of an array
+ * print_array -  a function that prints n of an array
  * @a: array name
  * @n: is the number of elements of the array to be printed
  * Return: a and n inputs
  */
-void puts_half(int *a, int n)
+void print_array(int *a, int n)
 {
 	int i;
 
