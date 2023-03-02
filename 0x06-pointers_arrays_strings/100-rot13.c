@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rot13 - entry point
+ * rot13 - Entry point
  * ONE if, TWO loops only...
  * @n: input
  * Return: decrypted string
