@@ -2,9 +2,9 @@
 
 /**
  * print_number - print an integer
- * @n: the integer to print
+ * @n: integer params
  *
- * Return: void
+ * Return: 0
  */
 void print_number(int n)
 {
