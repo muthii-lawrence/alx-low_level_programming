@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rot13 - a function that encodes a string
+ * rot13 - entry point
  * ONE if, TWO loops only...
  * @n: input
  * Return: decrypted string
